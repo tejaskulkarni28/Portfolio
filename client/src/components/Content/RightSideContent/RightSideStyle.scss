@@ -1,0 +1,76 @@
+.RightContainer{
+    width: 50%;
+    // background-color: blue;
+    color: white;
+}
+.RightContent{
+    margin-left: 100px;
+    margin-top: 280px;
+}
+.Image-Container{
+    text-align: center;
+}
+.Image-Container img{
+    border-radius: 10px;
+}
+#stuff-span{
+    color: orange;
+    border-image-source: linear-gradient(to right, red, orange);
+}
+#buildStuff{
+    border-bottom:2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, red, orange);
+}
+.RightSubContainer1{
+    margin-bottom: 100px;
+}
+.RightSubContainer1 h1{
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+.RightSubContainer1 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+.RightSubContainer1 a{
+    text-decoration: none;
+}
+#github-image{
+    margin-top: 22px;
+    margin-left: 10px;
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    bottom: 0;
+}
+#github-id{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+}
+#github-id:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+}
+#p-github{
+    font-size: 18px;
+    font-weight: 400;
+}
+.para-div{
+    width: auto;
+    text-align: center;
+}
+.para-div1{
+    width: auto;
+    margin-left: 15px;
+    text-align:start;
+}

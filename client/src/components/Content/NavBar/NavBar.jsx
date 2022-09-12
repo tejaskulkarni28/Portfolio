@@ -1,0 +1,19 @@
+import React from "react";
+import './NavBarStyle.scss';
+
+const NavBar = ()=>{
+    return (
+        <div className="container">
+            <div className = "content">
+                <div className="left-nav"><h1>theCoderNoob</h1></div>
+                <div className="right-nav">                
+                <h2>Projects</h2>
+                <h2>Posts</h2>
+                 <h2>About</h2>
+             </div>
+            </div>
+        </div>
+    )
+}
+
+export default NavBar;

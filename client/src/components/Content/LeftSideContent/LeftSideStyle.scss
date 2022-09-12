@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Rampart+One&family=Roboto+Slab:wght@500&family=Rock+Salt&display=swap');
+.LeftContainer{
+    height: 500px;
+    color: white;
+    width: 50%;
+}
+.LeftContent{
+    position: sticky;
+    top: 0;
+}
+
+h3{
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 60px;
+    font-size: 50px;
+}
+p{
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+    padding: 9px;
+    font-weight: 1000;
+}
+.p-child{
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 60px;
+    padding: 9px;
+    font-weight: 500;
+}
+#span{
+    color: orange;
+}
+#hii-there{
+    font-size: 30px;
+}
+
+
+// Animation of typing my name
+#typingName{
+    color: rgb(4, 219, 219);
+    position: relative;
+}
+#typingName::after{
+    background-color: #0f111a;
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    border-left: 4px solid orangered;
+    left: 0;
+
+    animation: typing 5s steps(15) infinite;
+}
+
+@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 1px);
+    }
+}

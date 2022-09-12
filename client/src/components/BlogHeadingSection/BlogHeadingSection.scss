@@ -1,0 +1,21 @@
+.BlogHeadingSectionContainer{
+    margin-top: 10px;
+    padding: 10px;
+    // background-color: #f1f1f1;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+.BlogHeadingSectionContent a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+.BlogHeadingSectionContent a:hover{
+    color: orange;
+}
+.BlogHeadingSectionContent li{
+    font-weight: 1000;
+    list-style-type: none;
+    margin: 30px 10px;
+}
