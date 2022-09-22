@@ -52,3 +52,51 @@
 .right-nav{
     width: 80%;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        // background-color: red;
+
+        border-radius: 5px;
+        padding: 25px;
+        margin-bottom: 50px;
+        // background-color: #0f111a;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-nav{
+        text-align: center;
+        width: 100%;
+    }
+    .right-nav{
+        width: 100%;
+        display: flex;
+        // background-color: blue;
+        text-align: center;
+        width: 100%;
+    }
+    .left-nav h1{
+        margin: auto;
+        width: auto;
+    }
+    .right-nav h2{
+        width: auto;
+    }
+    .right-nav h2{
+        font-size: 18px;
+        color: white;
+        background-color: #0f111a;
+        font-family: 'Public Sans', sans-serif;
+        padding: 0px;
+        display: block;
+        float:none;
+        margin: 10px;
+    }
+    .right-nav-responsive{
+        text-align: center;
+        margin: auto;
+        // background-color: blue;
+    }
+}

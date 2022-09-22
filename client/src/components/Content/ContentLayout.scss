@@ -8,3 +8,22 @@
 .flex-container{
     display: flex;
 }
+@media only screen and (max-width: 600px){
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ContentLayoutContainer{
+        display: block;
+        height: 3000px;
+        margin: auto;
+        background-color: #0f111a;
+        border-radius: 15px;
+    }
+    #buildStuff{
+        margin-left: 20px;
+    }
+    .RightSubContainer1{
+        margin-left: 20px;
+    }
+}

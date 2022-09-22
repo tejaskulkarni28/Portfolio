@@ -78,3 +78,111 @@ a{
     top:3px;
     right: 3px;
 }
+@media only screen and (max-width: 600px){
+    .Footer-Container{
+        color: white;
+        // background-color: red;
+        height: 500px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .Link-Container{
+        margin-bottom: 150px;
+        height: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Link-Container ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Link-Container li{
+        font-weight: 500;
+        background:linear-gradient(90deg,red, orange);
+        display: block;
+        // background-color: violet;
+        width: 80%;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        list-style: none;
+        text-decoration:none;
+        font-size: 20px;
+        font-weight: 0;
+        // margin: auto;
+        // width: 400px;
+    }
+    #linkedIn{
+        position: relative;
+        bottom: 4px;
+        // font-size: 18px;
+    }
+    #twitter{
+        position: relative;
+        bottom: 4px;
+        // font-size: 18px;
+    }
+    .Link-Container a:hover{
+        color: orange;
+    }
+    
+    // .Ending-Section-Container{
+    // background-color: red;
+    // }
+    .Ending-Section-Container p{
+        // padding-top: 100px;
+        // background-color: blue;
+        // height: 200px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .Ending-Section-Content p{
+        padding: 0;
+    }
+    #copyright{
+        font-size: 15px;
+        color: orange;
+    }
+    #github-image-footer{
+        // display: inline-block;
+        margin: 0;
+        position: relative;
+        top: 7px;
+        right: 17px;
+        width: 20px;
+        background-color: white;
+        border-radius: 12px;
+        padding: 1px;
+        cursor: pointer;
+        // border: 2px solid;
+        // position: relative;
+    }
+    // #github-image-footer:hover{
+    //     background-color: orange;
+    //     cursor: pointer;;
+    // }
+    #linkedIn-image-footer{
+        cursor: pointer;
+        width: 28px;
+        position: relative;
+        top: 7px;
+        right: 10px;
+    }
+    #twitter-image-footer{
+        cursor: pointer;
+        width: 30px;
+        position: relative;
+        top: 7px;
+        right: 17px;
+    }
+    #funny-image-footer{
+        cursor: pointer;
+        width: 20px;
+        position: relative;
+        top:3px;
+        right: 3px;
+    }
+}
