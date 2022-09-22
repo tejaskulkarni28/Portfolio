@@ -1,0 +1,35 @@
+.Footer-Container{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.Link-Container{
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.Link-Container ul{
+    display: flex;
+}
+.Link-Container li{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 0;
+    margin: auto;
+    width: 400px;
+}
+
+.Ending-Section-Container{
+    margin-top: 50px;
+    height: 200px;
+}
+.Ending-Section-Content p{
+    padding: 0;
+}
+#copyright{
+    font-size: 22px;
+    color: orange;
+}

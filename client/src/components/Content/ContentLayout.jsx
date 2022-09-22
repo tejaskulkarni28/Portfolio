@@ -5,6 +5,7 @@ import LeftSideContent from "./LeftSideContent/LeftSideContent";
 import NavBar from "./NavBar/NavBar";
 import RightSideContent from "./RightSideContent/RightSideContent";
 import '../../Line/Line';
+import Footer from "../FooterContainer/Footer";
 const ContentLayout = ()=>{
     return(
         <div className="ContentLayoutContainer">
@@ -14,6 +15,7 @@ const ContentLayout = ()=>{
             <RightSideContent/>
             </div>
             <Line/>
+            <Footer/>
         </div>
     )
 }

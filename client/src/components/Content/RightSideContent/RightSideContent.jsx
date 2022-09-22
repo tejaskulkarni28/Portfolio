@@ -18,7 +18,7 @@ const RightSideContent = ()=>{
                <p1 id="p-github">Join a growing community of developers who are building stuff, learning things, and helping each other grow through the power of open source.</p1>
                </div>
             </div>
-            <h1 id="buildStuff">My<span id="stuff-span">Blogs</span></h1>
+            <h1 id="buildStuff">My<span id="stuff-span"> Blogs</span></h1>
             <div className="RightSubContainer1">
                 <BlogHeadingSection/>
             </div>
