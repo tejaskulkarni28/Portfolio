@@ -6,10 +6,10 @@ const BlogHeadingSection = ()=>{
         <div className="BlogHeadingSectionContainer">
             <div className="BlogHeadingSectionContent">
                 <ul>
-                    <li>< a href="#" >- Java Classes and Objects</a></li>
-                    <li>< a href="#" >- ReactJs Functional and Class Components</a></li>
-                    <li>< a href="#" >- Git commands</a></li>
-                    <li>< a href="#" >- JavaScript Basics</a></li>
+                    <li>< a href="#" > Java Classes and Objects</a></li>
+                    <li>< a href="#" > ReactJs Functional & Class components</a></li>
+                    <li>< a href="#" > Git commands</a></li>
+                    <li>< a href="#" > JavaScript Basics</a></li>
                 </ul>
             </div>
         </div>

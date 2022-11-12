@@ -13,8 +13,8 @@ const Footer = ()=>{
                 <div className="Link-Container">
                     <ul>
                         <li><img id="github-image-footer" src={githubimage}/><a href="#">GitHub</a></li>
-                        <li><img id="linkedIn-image-footer" src={linkedIn}/><a href="#">LinkedIn</a></li>
-                        <li><img id="twitter-image-footer" src={twitter}/><a href="#">Twitter</a></li>
+                        <li><img id="linkedIn-image-footer" src={linkedIn}/><a href="#" id="linkedIn">LinkedIn</a></li>
+                        <li><img id="twitter-image-footer" src={twitter}/><a href="#" id="twitter">Twitter</a></li>
                     </ul>
                 </div>
                 <div className="Ending-Section-Container">
