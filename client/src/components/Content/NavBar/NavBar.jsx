@@ -8,7 +8,7 @@ const NavBar = ()=>{
                 <div className="left-nav"><h1>TheCoderNoob</h1></div>
                 <div className="right-nav">       
                 <div className="right-nav-responsive">
-                    <h2><a href="https://github.com/tejaskulkarni28?tab=repositories">Projects</a></h2>
+                    <h2><a href="https://github.com/tejaskulkarni28?tab=repositories" target="_blank">Projects</a></h2>
                 </div>         
              </div>
             </div>
