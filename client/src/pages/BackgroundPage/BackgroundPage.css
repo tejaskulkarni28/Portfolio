@@ -1,0 +1,12 @@
+.BackgroundLayoutContainer{
+    background: linear-gradient(110deg, #f11012,#ffb626);
+    height: auto;
+    padding: 15px;
+}
+@media only screen and (max-width: 500px){
+    .BackgroundLayoutContainer{
+        background: linear-gradient(110deg, #f11012,#ffb626);
+        height: auto;
+        padding: 10px;
+    }
+}

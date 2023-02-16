@@ -5,3 +5,19 @@
     margin: auto;
    background-image: linear-gradient(to right,red,orange, red);
 }
+.Line-Container h1{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    .Line-Container {
+        margin-top: 10px;
+        width: 50%;
+        height: 3px;
+        margin: auto;
+        background-image: linear-gradient(to right,red,orange, red);
+    }
+    .Line-Container h1{
+        display: none;
+    }
+}
