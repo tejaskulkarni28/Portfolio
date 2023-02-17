@@ -6,6 +6,7 @@ import {octokit} from "../security/token";
 import {useState} from "react";
 import Footer from "../components/FooterContainer/Footer";
 import Line from "../Line/Line";
+import axios from "axios";
 const Projects = (props) => {
 
   const [data, setData] = useState([]);
@@ -13,15 +14,21 @@ const Projects = (props) => {
   const username = "tejaskulkarni28";
   const url = `https://api.github.com/users/${username}/repos`;
 
-  useEffect(() => {
-    octokit
-      .request(url)
-      .then((response) => {
-        setData(response.data)
-        console.log(response.data)
-      })
-  }, [])
+  // useEffect(() => {
+  //   octokit
+  //     .request(url)
+  //     .then((response) => {
+  //       setData(response.data)
+  //       console.log(response.data)
+  //     })
+  // }, [])
 
+  useEffect(()=>{
+    axios.request(url).then((res)=>{
+      setData(res.data)
+      console.log(res.data)
+    })
+  },[])
 
   return (
     <div>
