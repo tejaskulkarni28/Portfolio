@@ -6,7 +6,6 @@ import {octokit} from "../security/token";
 import {useState} from "react";
 import Footer from "../components/FooterContainer/Footer";
 import Line from "../Line/Line";
-
 const Projects = (props) => {
 
   const [data, setData] = useState([]);
@@ -22,6 +21,7 @@ const Projects = (props) => {
         console.log(response.data)
       })
   }, [])
+
 
   return (
     <div>
