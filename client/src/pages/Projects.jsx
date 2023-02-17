@@ -34,24 +34,19 @@ const Projects = (props) => {
     <div>
       <div className="projects-container">
         <NavBar/>
-        <div className="projects-content">
-          <div className="projects-content-card-layout">
-            <div className="inner-layout">
-              {data.map((value) => {
-                return (<Cards
-                  id={value.id}
-                  title={value.name}
-                  html_url={value.html_url}
-                  description={value.description}/>)
-              })
+        <div className="projects-responsive-container">
+        {data.map((value) => {
+          
+                  return (
+                    <div className="projects-responsive-content1"><Cards className="card"
+        id={value.id}
+        title={value.name}
+        html_url={value.html_url}
+        description={value.description}/></div>)
+    })
+          
 }
-            </div>
-          </div>
         </div>
-        {/* <div className="projects-pagination">
-        <button onClick={handlePaginationPrevious}>Previous</button>
-        <button onClick={handlePaginationNext}>Next</button>
-        </div> */}
         <Line/>
         <Footer/>
       </div>
@@ -60,3 +55,18 @@ const Projects = (props) => {
 }
 
 export default Projects;
+
+{/* <div className="projects-content">
+<div className="projects-content-card-layout">
+  <div className="inner-layout">
+    {data.map((value) => {
+      return (<Cards
+        id={value.id}
+        title={value.name}
+        html_url={value.html_url}
+        description={value.description}/>)
+    })
+}
+  </div>
+</div>
+</div> */}

@@ -10,7 +10,7 @@ const Cards = (props) => {
   return (
     <div className="cards-container">
       <div className="cards-content">
-        <div className="card-title-container">
+        <div className="cards-title-container">
           <p>Repo: {props.title}</p>
         </div>
         <div className="card-desc-container">
