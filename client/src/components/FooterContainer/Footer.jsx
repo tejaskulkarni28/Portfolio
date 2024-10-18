@@ -19,7 +19,7 @@ const Footer = ()=>{
                 </div>
                 <div className="Ending-Section-Container">
                     <div className="Ending-Section-Content">
-                        <p><span id="copyright">© Tejas Kulkarni 2022</span></p>
+                        <p><span id="copyright">© Tejas Kulkarni 2024</span></p>
                         <p><img id="funny-image-footer" src={funny} />I don't track you</p>
                         <p><img id="funny-image-footer" src={funny1} />It’s not a bug. It’s an undocumented feature!</p>
                     </div>
