@@ -7,7 +7,7 @@ const LeftSideContent = ()=>{
         <div className="LeftContainer">
             <div className="LeftContent">
             <img id="myPhoto" src={myPhoto}/>
-                <h3><span id="hii-there">Hii There! 👋</span><br/>I'M <span id="typingName">Tejas Kulkarni.</span></h3>
+                <h3><span id="hii-there">Hi 👋</span><br/>I'M <span id="typingName">Tejas Kulkarni.</span></h3>
                 <p>Post-Grad Student in Master of Computer Applications <br/>at MIT-WPU.</p>
                 <p className="p-child">I'm a <span id="span">software developer.</span><br/> I help developers build 🔥cool stuff🔥,<br/> learn things, and love what they do through blog posts, tutorial videos, live streaming about tech and building open source projects.</p>
             </div>
